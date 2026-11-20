@@ -24,23 +24,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "redfast_core",
-            url: "https://github.com/recurly/redfast-sdk-apple/releases/download/3.0.0/redfast-core-3.0.0.xcframework.zip",
-            checksum: "a36f1904a2cdbbf1b5b68d3ba274beb741d5ff7dcaa3057812116973fa70904e"
+            url: "https://github.com/recurly/redfast-sdk-apple/releases/download/3.0.1/redfast-core-3.0.1.xcframework.zip",
+            checksum: "a17920592a02aab609605b38348dbc8774293db1904fdc6ce7dafd0aec777f56"
         ),
         .binaryTarget(
             name: "redfast_ui",
-            url: "https://github.com/recurly/redfast-sdk-apple/releases/download/3.0.0/redfast-ui-3.0.0.xcframework.zip",
-            checksum: "1f994ed55b29a5d1848fe6530f22d85695b53ef072e8011fa07f608f43f0ca46"
+            url: "https://github.com/recurly/redfast-sdk-apple/releases/download/3.0.1/redfast-ui-3.0.1.xcframework.zip",
+            checksum: "4d609cddd25fad2c66a92a2117292bc48be81bf05b0be1b1a4af8b358d552a2d"
         ),
         .binaryTarget(
             name: "redfast_ui_iap",
-            url: "https://github.com/recurly/redfast-sdk-apple/releases/download/3.0.0/redfast-ui-iap-3.0.0.xcframework.zip",
-            checksum: "431f5ffe1f76e155ca81a7b0b498d3839f2457bb2537bb9b3d9660dbf15c118b"
+            url: "https://github.com/recurly/redfast-sdk-apple/releases/download/3.0.1/redfast-ui-iap-3.0.1.xcframework.zip",
+            checksum: "a4cc56f8c16c1ad6a5f886b8a84336bb11e4b6a2a3d5004180e1db8cd5603f9a"
         ),
         .binaryTarget(
             name: "redfast_ui_push",
-            url: "https://github.com/recurly/redfast-sdk-apple/releases/download/3.0.0/redfast-ui-push-3.0.0.xcframework.zip",
-            checksum: "ab2f1e4affa825b097fb5ac2d20da9e654ca1f711503950101d4a0ba42021cb6"
+            url: "https://github.com/recurly/redfast-sdk-apple/releases/download/3.0.1/redfast-ui-push-3.0.1.xcframework.zip",
+            checksum: "a033ff61f9d29e70872ae7f137caad35b3f11000a6c401ccea74289151ce7ebc"
         ),
     ]
 )
